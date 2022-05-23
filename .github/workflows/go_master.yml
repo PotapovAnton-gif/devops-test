@@ -23,5 +23,8 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+
+    - name: Build docer image
+      run : docker build .
       
       
